@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(213, 147, 72);
+}
+
+nav li {
+    display: inline-block;
+    color: rgb(237, 227, 227);
+}
+.heading{
+    font-size: 2em;
+    text-align: center;
+    margin: 4em 0;
+  }
+  
+  ul{
+    list-style-type: none;
+    display: flex;
+    width: center;
+    justify-content: space-evenly;
+    border: 1xp solid white;
+    border-radius: 10px;
+    padding: 10px;
+  box-shadow:  20px 20px 60px rgb(67, 28, 14),
+               -20px -20px 60px rgb(209, 59, 5);
+  }
+
+
+.top-section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.top-section p{
+    color: aliceblue;
+}
+
+blockquote {
+    text-decoration-thickness: bold;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;   
+}
+.havasu-falls {
+ border: 7px solid orangered;
+ max-width: 50%;
+ max-height:100%;
+ display: inline-block;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+ .havasu-falls p{
+    color:aliceblue
+ }
+
+
+.super-bowl {
+    border: 7px solid orangered;
+    max-width: 47%;
+    max-height:auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+    .super-bowl p{
+       color:aliceblue
+    }
+
+p {
+    color: aliceblue;
+}
