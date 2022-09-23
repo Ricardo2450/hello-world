@@ -19,6 +19,9 @@ function customAlert(){
 
 
 let userName = prompt("what is your name?")
+while (userName == ""){
+    userName = prompt('Please enter your name!')
+}
 let userVeteran = prompt ("Are you a veteran?");
 if (userVeteran == "yes"){
     customAlert();
