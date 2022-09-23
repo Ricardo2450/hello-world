@@ -54,12 +54,15 @@ blockquote {
  .havasu-falls p{
     color:aliceblue
  }
+ .havasu-falls img{
+    width: 47%;
+    }
 
 
 .super-bowl {
     border: 7px solid orangered;
     max-width: 47%;
-    max-height:auto;
+    max-height: 100%;
     display: inline-block;
     text-align: center;
     margin-left: auto;
@@ -68,6 +71,9 @@ blockquote {
     .super-bowl p{
        color:aliceblue
     }
+    .super-bowl img{
+        width: 50%;
+        }
 
 p {
     color: aliceblue;
